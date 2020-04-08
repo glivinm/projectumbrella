@@ -47,7 +47,7 @@ a
 }
 a:visited
 {
-   color: #D2691E;
+   color: #800080;
 }
 a:active
 {
@@ -58,7 +58,6 @@ a:hover
    color: #0000FF;
    text-decoration: underline;
 }
-
 input:focus, textarea:focus, select:focus
 {
    outline: none;
