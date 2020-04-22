@@ -1,0 +1,26 @@
+#indexm
+{
+   text-align: center;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(images/58da8088597dd15b158614af.jpg);
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   display: inline-block;
+   width: 86px;
+   height: 86px;
+   vertical-align: top;
+}

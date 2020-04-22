@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="default/jquery.mobile.theme-1.4.5.css" rel="stylesheet">
+<link href="default/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet">
+<link href="jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+<link href="иии_mobile.css" rel="stylesheet">
+<link href="indexm.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).on("mobileinit", function()
+{
+   $.mobile.ajaxEnabled = false;
+});
+</script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="o" data-title="Untitled Page" id="indexm">
+<div class="ui-content" role="main">
+<img src="images/Python.svg.png" id="Image1" alt="">
+<input type="submit" id="Button1" onclick="window.location.href='./pinfom.html';return false;" name="" value="Інформація" title="&#1030;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1110;&#1103;">
+<input type="submit" id="Button2" onclick="window.location.href='./padvantm.html';return false;" name="" value="Переваги Python" title="&#1055;&#1077;&#1088;&#1077;&#1074;&#1072;&#1075;&#1080; Python">
+<input type="submit" id="Button3" onclick="window.location.href='./ptypestrm.html';return false;" name="" value="Типи та структури" title="&#1058;&#1080;&#1087;&#1080; &#1090;&#1072; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1080;">
+<input type="submit" id="Button4" onclick="window.location.href='./pdevm.html';return false;" name="" value="Розробник Python" title="&#1056;&#1086;&#1079;&#1088;&#1086;&#1073;&#1085;&#1080;&#1082; Python">
+<input type="submit" id="Button5" onclick="window.location.href='./authorm.html';return false;"name="" value="Автор" title="&#1040;&#1074;&#1090;&#1086;&#1088;">
+</div>
+</div>
+</body>
+</html>
